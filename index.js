@@ -112,7 +112,7 @@ app.post("/api/persons", (request, response) => {
 
 // app.use(unknownEndpoint);
 
-const PORT = process.env.MONGODB_URI;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`server runing on port ${PORT}`);
 });
